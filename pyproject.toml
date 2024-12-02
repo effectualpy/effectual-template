@@ -16,7 +16,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "effectual>=0.3.4",
+    "effectual>=0.3.5",
     "ruff>=0.8.0",
 ]
 
@@ -30,7 +30,7 @@ sourceDirectory = "./src/"
 outputDirectory =  "./dist/"
 outputFileName = "bundle.pyz"
 minification = true
-compressionLevel=5
+compressionLevel = 5
 
 
 [tool.ruff]
