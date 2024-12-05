@@ -35,7 +35,7 @@ compressionLevel = 5
 
 [tool.ruff]
 
-include = ["pyproject.toml", "src/**/*.py", "scripts/**/*.py"]
+include = ["pyproject.toml", "src/**/*.py"]
 fix = true
 cache-dir = ".ruff_cache/"
 
