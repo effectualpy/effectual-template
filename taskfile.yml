@@ -3,38 +3,47 @@ version: "3.17"
 tasks:
 
     run:
+        desc: Bundles and runs your sourcedirectory
         deps: [build]
         cmds:
             - uv run dist/bundle.pyz
 
     dev:
+        desc: Bundles your source directory with HMR and no deps
         cmds:
             - uv run efec dev
 
     build:
+        desc: Bundles your sourcedirectory with deps
         aliases: [dist, bundle]
         deps: [check]
         cmds:
             - defer: uv run efec dist
 
     check:
+        desc: Lints and formats your source directory
         deps: [lint, format]
 
     format:
+        desc: Formats your source directory
         cmds:
             - uv run ruff format --config pyproject.toml
 
     lint:
+        desc: Lints your source directory
         cmds:
             - uv run ruff check --config pyproject.toml
     
     lock:
+        desc: Updates lockfile and venv
         cmds:
-            - uv lock
+            - uv lock --upgrade
             - uv sync
 
     setup:
+        desc: Installs dependencies and creates venv
         cmds:
+            - uv python install 3.11
             - uv venv --python 3.11
             - uv sync
             - uv lock
