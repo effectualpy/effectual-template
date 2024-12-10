@@ -16,7 +16,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "effectual>=0.7.3",
+    "effectual>=0.7.4",
     "ruff>=0.8.0",
 ]
 
