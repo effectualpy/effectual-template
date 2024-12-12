@@ -3,7 +3,7 @@ version: "3.17"
 tasks:
 
     run:
-        desc: Bundles and runs your sourcedirectory
+        desc: Bundles and runs your source directory
         deps: [build]
         cmds:
             - uv run dist/bundle.pyz
@@ -14,7 +14,7 @@ tasks:
             - uv run efec dev
 
     build:
-        desc: Bundles your sourcedirectory with deps
+        desc: Bundles your source directory with deps
         aliases: [dist, bundle]
         deps: [check]
         cmds:
