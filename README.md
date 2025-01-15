@@ -6,7 +6,7 @@
 
 ### Python
 
-Firstly you will need to install a version of [Python](https://www.python.org/) alongside pip, this project was originally built with [Python 3.11.x](https://www.python.org/downloads/release/python-31110/) but supports between python 3.8 and 3.13, you can refer to the uv documentation on how to change the python version of the project (make sure to change the 'task setup' command as well)
+Firstly you will need to install a version of [Python](https://www.python.org/) alongside pip, this project was originally built with [Python 3.11.x](https://www.python.org/downloads/release/python-31110/) but supports between python 3.9 and 3.14, you can refer to the uv documentation on how to change the python version of the project (make sure to change the 'task setup' command as well)
 
 
 ### Taskfile
