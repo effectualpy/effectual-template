@@ -11,12 +11,13 @@ version = "0.0.0"
 license = {file = "LICENSE"}
 
 dependencies = [
-    "requests>=2.32.3"
+    "requests>=2.32.3",
 ]
 
 [dependency-groups]
+
 dev = [
-    "effectual>=0.8.1",
+    "effectual>=0.8.2",
     "ruff>=0.9.0",
 ]
 
