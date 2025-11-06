@@ -34,8 +34,8 @@ tasks:
         cmds:
             - uv run ruff check --config pyproject.toml
     
-    lock:
-        desc: Updates lockfile and venv
+    bump:
+        desc: Bumps the versions of Python packages
         cmds:
             - uv lock --upgrade
             - uv sync
