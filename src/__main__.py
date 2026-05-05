@@ -15,8 +15,8 @@ def main() -> None:
 
 
 def versionCheck() -> None:
-    if sys.version_info[0] != 3 and sys.version_info[1] != 11:
-        raise EnvironmentError("This bundle was made for python version 3.11!")
+    if sys.version_info[0] != 3 and sys.version_info[1] < 9:
+        raise EnvironmentError("This bundle was made for Python versions above 3.9")
 
 
 if __name__ == "__main__":

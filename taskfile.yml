@@ -13,6 +13,14 @@ tasks:
         cmds:
             - uv run efec dev
 
+    vanilla:
+        desc: Runs __main__.py without bundling
+        aliases: [van]
+        deps: [check]
+        cmds:
+            - uv run ./src/__main__.py
+
+
     build:
         desc: Bundles your source directory with deps
         aliases: [dist, bundle]
