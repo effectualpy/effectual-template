@@ -20,7 +20,6 @@ tasks:
         cmds:
             - uv run ./src/__main__.py
 
-
     build:
         desc: Bundles your source directory with deps
         aliases: [dist, bundle]
