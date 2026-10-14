@@ -6,7 +6,7 @@
 
 ### Python
 
-Firstly you will need to install a version of [Python](https://www.python.org/) alongside pip, this project was originally built with [Python 3.11.x](https://www.python.org/downloads/release/python-31110/) but should support between python 3.9 and 3.14.x, you can refer to the [uv documentation](https://docs.astral.sh/uv/concepts/python-versions/) on how to change the python version of the project (make sure to change the 'task setup' command as well)
+Firstly you will need to install a version of [Python](https://www.python.org/) alongside pip, this project was originally built with [Python 3.11.x](https://www.python.org/downloads/release/python-31110/) but should support between python 3.10 and 3.15.x, you can refer to the [uv documentation](https://docs.astral.sh/uv/concepts/python-versions/) on how to change the python version of the project (make sure to change the 'task setup' command as well)
 
 
 ### Taskfile
