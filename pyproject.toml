@@ -5,7 +5,7 @@
 [project]
 
 name = "effectual-template"
-requires-python = ">= 3.10"
+requires-python = ">= 3.11"
 readme = "README.md"
 version = "0.0.0"
 license = {file = "LICENSE"}
@@ -17,7 +17,7 @@ dependencies = [
 [dependency-groups]
 
 dev = [
-    "effectual>=0.8.13",
+    "effectual>=0.8.15",
     "ruff>=0.17.0",
 ]
 
