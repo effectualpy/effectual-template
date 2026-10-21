@@ -1,5 +1,5 @@
 # Please configure this to your projects needs
-# Effectual options can be configured in [tool.effectual] 
+# Effectual options can be configured in [tool.effectual]
 # Ruff rules can be configured in anything with [tool.ruff]
 
 [project]
@@ -11,13 +11,13 @@ version = "0.0.0"
 license = {file = "LICENSE"}
 
 dependencies = [
-    "requests>=2.32.3",
+    "requests>=2.34.2",
 ]
 
 [dependency-groups]
 
 dev = [
-    "effectual>=0.8.15",
+    "effectual>=0.8.16",
     "ruff>=0.17.0",
 ]
 
