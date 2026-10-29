@@ -21,7 +21,7 @@ To install [uv](https://docs.astral.sh/uv/) again check the [website](https://do
 
 This can be done by pressing the green 'use this template button' on GitHub or running:
 
-    git clone https://github.com/jakewdr/effectual <outputDirectory>
+    git clone https://github.com/effectualpy/effectual-template <outputDirectory>
 
 ### Original setup
 
